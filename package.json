@@ -1,0 +1,21 @@
+{
+  "name": "social",
+  "version": "0.0.1",
+  "description": "Node Tutorial",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "supervisor -w public/js, server.js",
+    "test" : "testem"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^3.0.6",
+    "jade": "^1.3.1",
+    "mongoose": "^2.6.8"
+  },
+  "devDependencies": {
+    "supervisor": "^0.6.0"
+  }
+}
